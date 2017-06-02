@@ -36,7 +36,7 @@
 				wid: window.innerHeight,
 				text: "",
 				name: "",
-				eyeFlag: true,
+				eyeFlag: false,
 				udFlag: false,
 				history: ["大帅瓜","哈哈哈","千纸鹤","独孤求败","木头人"],
 			}
