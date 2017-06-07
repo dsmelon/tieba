@@ -29,6 +29,17 @@ export default {
 		this.$http.get("./static/tj.json").then((reponse)=>{
 			this.msg=reponse.body;
 		})
+	// 	var Server =mongo.Server;
+	// 	var Db=mongo.Db;
+
+	// 	var server=new Server("localhost",27017,{auto_reconnect:true});
+	// 	var db=new Db('foo',server);
+
+	// 	db.open((err,db)=>{
+	// 		if(!err){
+	// 			console.log("我连上了");
+	// 		}
+	// 	})
 	}
 }
 </script>

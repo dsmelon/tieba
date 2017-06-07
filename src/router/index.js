@@ -14,6 +14,7 @@ import Lmjx from '@/components/index/Lmjx'
 import Mrjx from '@/components/index/Mrjx'
 import Login from '@/components/Login'
 import DetailTj from '@/components/DetailTj'
+import Testmongodb from '@/components/testmongodb'
 
 Vue.use(Router)
 
@@ -62,5 +63,8 @@ export default new Router({
 	},{
 		path: '/detailtj',
 		component: DetailTj
+	},{
+		path: '/testmongodb',
+		component: Testmongodb
 	}]
 })
